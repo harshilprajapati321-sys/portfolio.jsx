@@ -74,8 +74,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 video:https://drive.google.com/drive/folders/1dYoXNGFAWHy0OrMzTiIArXmwY0KbX5Ww?usp=sharing
 
 <img width="1879" height="905" alt="home" src="https://github.com/user-attachments/assets/f766f9f3-b3e8-421b-9767-13fbb779f3e3" />
+<img width="1857" height="900" alt="about" src="https://github.com/user-attachments/assets/ee031e61-f83b-4014-8527-a67a385383e9" />
 
-<img width="1879" height="905" alt="home" src="https://github.com/user-attachments/assets/fedbcb1f-b64c-43e2-aa6c-f10949960481" />
 <img width="1856" height="909" alt="serviece" src="https://github.com/user-attachments/assets/afaddf94-eb33-4271-a15c-e6a73fe92b76" />
 <img width="1861" height="912" alt="portfolio" src="https://github.com/user-attachments/assets/d25ca147-8ecc-49d2-b927-413ab8551b0c" />
 <img width="1888" height="902" alt="contact" src="https://github.com/user-attachments/assets/84c06fa7-5e59-4930-9863-bf44ed76a29b" />
