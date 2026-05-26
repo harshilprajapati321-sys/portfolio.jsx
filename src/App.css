@@ -36,3 +36,295 @@
     transform: rotate(360deg);
   }
 }
+ .service-box{
+          transition: 0.4s ease;
+          cursor: pointer;
+        }
+
+        .service-icon{
+          color:#b69a74;
+          transition:0.4s ease;
+        }
+
+        .service-title{
+          font-size:42px;
+          font-weight:700;
+          color:#7b6b5f;
+          font-family:serif;
+          margin-bottom:15px;
+          transition:0.4s ease;
+        }
+
+        .service-desc{
+          font-size:22px;
+          color:#8a8a8a;
+          line-height:1.8;
+        }
+
+        .learn-btn{
+          text-decoration:none;
+          color:#bdbdbd;
+          font-size:22px;
+          font-weight:600;
+          display:flex;
+          align-items:center;
+          gap:8px;
+          transition:0.4s ease;
+        }
+
+        .service-box:hover{
+          transform:translateY(-12px);
+        }
+
+        .service-box:hover .service-icon{
+          transform:rotate(8deg) scale(1.1);
+          color:#8d6f47;
+        }
+
+        .service-box:hover .service-title{
+          color:#a07d52;
+        }
+
+        .service-box:hover .learn-btn{
+          color:#8d6f47;
+          transform:translateX(8px);
+        }
+
+        @media(max-width:768px){
+
+          .service-title{
+            font-size:32px;
+          }
+
+          .service-desc{
+            font-size:18px;
+          }
+
+          .learn-btn{
+            font-size:18px;
+          }
+        }
+
+
+        
+
+.service-card {
+  border-radius: 20px;
+  transition: 0.4s;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  background: #c49b66 !important;
+}
+
+.service-card:hover h4,
+.service-card:hover p,
+.service-card:hover i {
+  color: white !important;
+}
+
+.service-icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #c49b66;
+  color: white;
+  font-size: 35px;
+  transition: 0.4s;
+}
+
+.service-card:hover .service-icon {
+  background: white;
+  color: #c49b66 !important;
+}
+
+.service-btn {
+  background: #c49b66;
+  color: white;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.service-btn:hover {
+  background: black;
+  color: white;
+}
+
+
+
+/* Portfolio.css */
+
+.portfolio-section {
+  background: #f8f9fa;
+}
+
+.portfolio-subtitle {
+  color: #c49b66;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.portfolio-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.portfolio-text {
+  max-width: 700px;
+  margin: auto;
+  line-height: 30px;
+}
+
+.portfolio-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.portfolio-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.portfolio-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+  text-align: center;
+  padding: 20px;
+}
+
+.portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio-card:hover .portfolio-img {
+  transform: scale(1.1);
+}
+
+.portfolio-overlay h4 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.portfolio-overlay p {
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.portfolio-btn {
+  background: #c49b66;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 25px;
+}
+
+.portfolio-btn:hover {
+  background: white;
+  color: black;
+}
+
+
+
+/* Contact.css */
+
+.contact-section {
+  background: #f8f9fa;
+}
+
+.contact-subtitle {
+  color: #c49b66;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.contact-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.contact-text {
+  max-width: 700px;
+  margin: auto;
+  line-height: 30px;
+}
+
+.contact-info-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+  transition: 0.4s;
+}
+
+.contact-info-box:hover {
+  transform: translateY(-8px);
+}
+
+.contact-icon {
+  width: 70px;
+  height: 70px;
+  background: #c49b66;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+.contact-info-box h5 {
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.contact-info-box p {
+  margin: 0;
+  color: #666;
+}
+
+.contact-form-box {
+  background: white;
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.custom-input {
+  border-radius: 12px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  box-shadow: none !important;
+}
+
+.custom-input:focus {
+  border-color: #c49b66;
+}
+
+.contact-btn {
+  background: #c49b66;
+  color: white;
+  padding: 12px 35px;
+  border-radius: 30px;
+  transition: 0.4s;
+}
+
+.contact-btn:hover {
+  background: black;
+  color: white;
+}
